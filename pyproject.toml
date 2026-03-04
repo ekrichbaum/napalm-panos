@@ -17,6 +17,8 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.14",
 ]
 include = [
     "CHANGELOG.md",
@@ -26,7 +28,7 @@ include = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.14"
+python = ">=3.8"
 cryptography = "*"
 napalm = "^4.0.0"
 lxml = "^5.0.0"
