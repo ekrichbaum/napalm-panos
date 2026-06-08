@@ -30,7 +30,7 @@ include = [
 [tool.poetry.dependencies]
 python = ">=3.8"
 cryptography = "*"
-napalm = "^4.0.0"
+napalm = "*"
 lxml = "^5.0.0"
 pan-python = "*"
 netmiko = "^4.0.0"
