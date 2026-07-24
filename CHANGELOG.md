@@ -1,3 +1,25 @@
+## 0.7.1 - 2026-06
+
+### Fixed
+
+- #132 Fix package parse issue with newer versions of Python
+- #132 Fix various dependencies an update Python versions
+
+## 0.7.0 - 2025-06
+
+### Fixed
+
+- #124 Fix ARP table handling for non-numeric TTL values
+
+### Updated
+
+- #125 Updated Python support for 3.12 & 3.13, dropped 3.8 & 3.9
+
+# 0.6.2 - 2024-04
+
+### Fixed
+- #118 Remove cryptography pinned dependency.
+
 # 0.6.1 - 2024-04
 
 ### Added
