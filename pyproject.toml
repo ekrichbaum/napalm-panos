@@ -13,8 +13,6 @@ classifiers = [
     "Intended Audience :: Developers",
     "Development Status :: 4 - Beta",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -30,8 +28,7 @@ include = [
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.15"
-cryptography = "*"
-napalm = "*"
+napalm = ">=5.0.0"
 lxml = "^5.0.0"
 pan-python = "*"
 netmiko = ">=4.4.0"
@@ -44,7 +41,7 @@ cffi = ">=1.17.1"
 bandit = "*"
 coverage = "*"
 invoke = "*"
-flake8 = "*"
+flake8 = ">6.1.0"
 pylint = "*"
 pytest = "*"
 pyyaml = "*"
@@ -65,7 +62,7 @@ black = "*"
 
 [tool.black]
 line-length = 120
-target-version = ['py38', 'py39', 'py310', 'py311']
+target-version = ['py310', 'py311', 'py312', 'py313', 'py314']
 include = '\.pyi?$'
 exclude = '''
 (
